@@ -24,5 +24,3 @@ twoDList= [
 print(twoDList)
 #Access the the c letter
 print(twoDList[0][2])
-#push d on the list
-# print(twoDList[0][2].pop())
