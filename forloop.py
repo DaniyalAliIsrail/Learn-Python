@@ -7,3 +7,9 @@ for x in fruits:
  
 for x in "banana":
   print(x)
+  
+# The range() Function
+# To loop through a set of code a specified number of times, we can use the range() function:
+
+for x in range(6):
+  print(x)
