@@ -4,16 +4,16 @@ print(thisset)
 
 # Duplicates Not Allowed
 # Sets cannot have two items with the same value.
-thisset = {"apple", "banana", "cherry", "apple"}
-print("Duplicate values are not allowed",thisset)
+thisset1 = {"apple", "banana", "cherry", "apple"}
+print("Duplicate values are not allowed",thisset1)
 
 # The values True and 1 are considered the same value in sets, and are treated as duplicates:
-thisset1 = {"apple", "banana", "cherry", True, 1, 2}
-print(thisset1)
+thisset2 = {"apple", "banana", "cherry", True, 1, 2}
+print(thisset2)
 
 # The values False and 0 are considered the same value in sets, and are treated as duplicates:
-thisset = {"apple", "banana", "cherry", False, True, 0}
-print(thisset)
+thisset3 = {"apple", "banana", "cherry", False, True, 0}
+print(thisset3)
 
 # ACCESS ITEMS:
 
