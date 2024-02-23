@@ -29,7 +29,6 @@ print(additemSet)
 
 # Add Sets
 # To add items from another set into the current set, use the update() method.
-
 oldSet = {"apple", "banana", "cherry"}
 newSet = {"pineapple", "mango", "papaya"}
 oldSet.update(newSet)
@@ -37,19 +36,16 @@ print("update set",oldSet)
 
 # Remove Item
 # To remove an item in a set, use the remove(), or the discard() method.
-
 removeSet = {"apple", "banana", "cherry"}
 removeSet.remove("banana")
 print(removeSet)
 
 # Note: If the item to remove does not exist, discard() will NOT raise an error.
-
 removeSetDiscard = {"apple", "cherry"}
 removeSetDiscard.discard("banana")
 print(removeSetDiscard)
 
 #DELETE
-
 # The del keyword will delete the set completely:
 delSet = {"apple", "banana", "cherry"}
 delSet.clear()
