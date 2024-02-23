@@ -1,13 +1,11 @@
 # OPERATORS:
 # + , - , * , / , % , **
-
 print("Addition of two number is ",2+1)
 print("Subtraction of two number is ",2-1)
 print("Multiplication of two number is ",2*2)
 print("Division of two number is ",4/2)
 print("Modulus of two number is ",4%2)
 print("Exponentiation of two number is ",6**2)
-
 
 # BOOLEAN OPERATOR
 #  == , and , or , not
