@@ -10,6 +10,5 @@ num2 = int(input("Enter the value of num2: "))
 num3 = int(input("Enter the value of num3: "))
 num4 = int(input("Enter the value of num4: "))
 
-# Calling the function to swap variables
 swapVar(num1, num2, num3, num4)
 
