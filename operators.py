@@ -1,5 +1,5 @@
 # OPERATORS:
-# + , - , * , / , % , //
+# + , - , * , / , % , **
 
 print("Addition of two number is ",2+1)
 print("Subtraction of two number is ",2-1)
