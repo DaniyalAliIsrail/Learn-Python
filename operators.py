@@ -19,7 +19,6 @@ print("And operaot",2==2 and 2==3)
 print("OR operator",2==2 or 2==3)
 
 # ASSIGNMENT OPERATOR:
-
 numAdd = 8.0
 numAdd +=2.5
 print(numAdd)
