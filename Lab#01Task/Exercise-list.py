@@ -1,3 +1,6 @@
+# Exercise: Lists 
+# (i)Play with some of the list functions. You can find the methods you can call on an object via the dir
+
 # append: This method adds an element to the end of the list.
 lst = ["nodejs","reactjs","expressjs"]
 lst.append("mongodb")
@@ -34,8 +37,9 @@ lst7 = ["nodejs","reactjs","expressjs"]
 lst7.reverse()
 print(lst7)
 
-
-
+#(ii)Write a Python program to count the number of strings where the string length is 2 or more and the  first and last character are same from a given list of strings. 
+# Sample List : ['abc', 'xyz', 'aba', '1221']
+# Expected Result : 2. 
 
 sample_list = ['abc', 'xyz', 'aba', '1221']
 counter = 0
@@ -49,9 +53,7 @@ print("first and last letter are same in this list is",counter)
 # (i)Write a list comprehension which, from a list, generates a lowercased version of each string that has 
 # length greater than five. 
 
-
 original_list = ['Gava', 'Banana', 'Orange', 'Grape', 'Strawberry', 'Watermelon', 'Pineapple']
-
 for item in original_list:
     if len(item) >= 5:
         print(item.lower())
