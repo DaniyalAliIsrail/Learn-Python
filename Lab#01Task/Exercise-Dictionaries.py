@@ -31,6 +31,7 @@ value1 =my_dict.get("a")
 print("value is associated with keys :",value1)
 
 # (ii)Write a Python script to concatenate following dictionaries to create a new one.
+
 # Sample Dictionary :
 # dic1={1:10, 2:20}
 # dic2={3:30, 4:40}

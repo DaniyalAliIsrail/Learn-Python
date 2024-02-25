@@ -47,7 +47,7 @@ for string in sample_list:
     if len(string) >= 2 and string[0] == string[-1]:
      counter += 1
     
-print("first and last letter are same in this list is",counter)
+print("first and last letter are same in this list item is",counter)
 
 # Exercise: List Comprehensions 
 # (i)Write a list comprehension which, from a list, generates a lowercased version of each string that has 
