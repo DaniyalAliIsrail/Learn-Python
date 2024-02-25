@@ -64,5 +64,14 @@ for item in original_list:
 # Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 # Expected Output : ['Green', 'White', 'Black']
 
+colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow', 'Teapink']
+positions_to_remove = [0, 4, 5]
+# Create a new list without the colors we want to remove
+new_list = []
+
+for index, color in enumerate(colors):
+    if index not in positions_to_remove:
+        new_list.append(color)
+print(new_list)
 
             
