@@ -53,6 +53,7 @@ print(x == y)    # Output: True
 
 # Membership Operators:
 # Membership operators are used to test if a sequence is presented in an object.
+
 x = ["apple", "banana"]
 print("banana" in x)    # Output: True
 print("orange" not in x)    # Output: True
