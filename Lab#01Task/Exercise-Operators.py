@@ -14,7 +14,6 @@ numMul = 8.0
 numMul *=2.5
 print(numMul)
 
-
 # Logical Operators:
 # Logical operators are used to combine conditional statements.
 
