@@ -36,23 +36,17 @@ if a > b: print("a is greater than b")
 # Short Hand If ... Else
 # If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
 
+
 num3 = 5
 num4 = 330
 print("num1") if a > b else print("num4")
 
+# print the square root of +ve or -ve number
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+userInput = int(input("Enter a Number : "));
+if(userInput>0):
+    print("The squar root  of positive number is ", userInput ** (1/2))
+elif(userInput<=0):
+    print("Can't calculate the square of negative number is")
 
 
