@@ -2,6 +2,7 @@
 # You can pass data, known as parameters, into a function.
 def my_Fun():
     print("Hello world")
+    
 def myFun(fname,lname):
     print(fname+""+lname)
 myFun("daniyal","ali")    
