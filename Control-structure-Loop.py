@@ -27,9 +27,9 @@ while i < 6:
 # Print Karachi Pakistan 100 times in a separate line
 
 k=1
-while(i<=10):
+while(k<=10):
   print("karachi pakistan")
-  i+=1
+  k+=1
 
 
 # The break Statement
