@@ -16,6 +16,6 @@ swapVar(num1, num2, num3, num4)
 def celtoFare(cel):
     farInput = cel * 9/5 + 32
     print("Temperature in Fahrenheit is",farInput)
-    
+     
 celInput = int(input("Enter a Temperature in Celsius : "))
 celtoFare(celInput)

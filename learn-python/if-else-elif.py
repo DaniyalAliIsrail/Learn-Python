@@ -44,44 +44,25 @@ print("num1") if a > b else print("num4")
 # Example: 01
 # Print square root of negative or positive number using if and operators.
 
-# userInput = int(input("Enter a Number : "));
-# if(userInput>0):
-#     print("The squar root  of positive number is ", userInput ** (1/2))
-# elif(userInput<=0):
-#     print("Can't calculate the square of negative number is")
+userInput = int(input("Enter a Number : "));
+if(userInput>0):
+    print("The squar root  of positive number is ", userInput ** (1/2))
+elif(userInput<=0):
+    print("Can't calculate the square of negative number is")
 
 # Example: 02
 # Write conditional statements to print value of 0 to 1 and 1 to 0 and numbers in between
 
 userInput1 = int(input("Enter a Number to change the value : "))
+
 if(userInput1 == 1):
     userInput1 = 0
     print(userInput1)
+    
 if(userInput1 == 0):
     userInput1 = 1
     print(userInput1)
+
 if(userInput1>2 or userInput1<0):
-    print("you have entered number between 0 to 1")        
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("you have entered number between 0 to 1") 
+    
